@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'main',
     'accounts',
     'rest_framework',
+    'crispy_forms',
+    'crispy_bootstrap5',
     'django_celery_results',
     'django_celery_beat',
 ]
@@ -138,3 +140,6 @@ LOGOUT_REDIRECT_URL = '/login/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+CRISPY_TEMPLATE_PACK = "bootstrap5"
+CRISPY_FAIL_SILENTLY = DEBUG
