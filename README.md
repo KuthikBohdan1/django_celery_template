@@ -1,11 +1,13 @@
 ### 🆕 Створення проєкту Django з шаблону
 
+###!!! В проекті розкоментовано .env в .gitignore це зроблено задля коректної роботи проекту з коробки
+
 #### 1\. Клонування репозиторію
 
 Для початку, склонуйте репозиторій із шаблоном собі на комп'ютер:
 
 ```bash
-git clone https://github.com/volodymyrlogika/django_template.git
+git clone https://github.com/KuthikBohdan1/django_celery_template
 ```
 
 #### 2\. Створення нового проєкту
