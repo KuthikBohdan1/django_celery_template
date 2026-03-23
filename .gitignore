@@ -1,7 +1,4 @@
-.env
-.envrc
 .venv
-env/
 venv/
 ENV/
 __pycache__/
